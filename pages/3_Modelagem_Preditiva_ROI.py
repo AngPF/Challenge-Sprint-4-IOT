@@ -73,7 +73,7 @@ faixa_etaria_input = st.selectbox(
 budget_input = st.number_input(
     'Insira o Budget Total', 
     min_value=0.0, 
-    max_value=50000.0,  
+    max_value=500000.0,  
     step=100.0  
 )
 
